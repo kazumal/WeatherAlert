@@ -1,0 +1,26 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/.browse.c_cpp_db*
+.vscode/c_cpp_properties.json
+
+# Arduino IDE
+build/
+*.hex
+*.elf
+*.bin
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (WiFi credentials, API keys)
+secrets.h
+.env
+*.env
+
+# IDE
+.idea/
+*.swp
+*.swo
